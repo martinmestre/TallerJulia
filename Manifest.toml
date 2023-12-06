@@ -398,9 +398,9 @@ version = "0.6.8"
 
 [[deps.DynamicQuantities]]
 deps = ["Compat", "PackageExtensionCompat", "Tricks"]
-git-tree-sha1 = "1eb22833c1bf36be85d8f4847ab423a8bf7f7b2d"
+git-tree-sha1 = "06de7fd6d0260a2cfa6d383c57044bf00ef45e38"
 uuid = "06fc5a27-2a28-4c7c-a15d-362465fb6821"
-version = "0.10.3"
+version = "0.10.0"
 
     [deps.DynamicQuantities.extensions]
     DynamicQuantitiesLinearAlgebraExt = "LinearAlgebra"
