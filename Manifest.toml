@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.9.3"
+julia_version = "1.9.4"
 manifest_format = "2.0"
 project_hash = "389db10921cd44d36b1a9bd0db57c214f53b2a7f"
 
@@ -528,7 +528,7 @@ uuid = "46192b85-c4d5-4398-a991-12ede77f4527"
 version = "0.1.5"
 
 [[deps.GalacticDynamics]]
-deps = ["DifferentialEquations", "DynamicQuantities", "Measurements", "Parameters", "PythonCall", "Reexport", "SafeTestsets", "StaticArrays", "StaticTools", "Test", "Unitful", "UnitfulAngles", "UnitfulAstro", "UnitfulChainRules", "Zygote"]
+deps = ["DifferentialEquations", "DynamicQuantities", "Measurements", "NamedTupleTools", "Parameters", "PythonCall", "Reexport", "SafeTestsets", "StaticArrays", "StaticTools", "Test", "Unitful", "UnitfulAngles", "UnitfulAstro", "UnitfulChainRules", "Zygote"]
 path = "/home/mmestre/.julia/dev/GalacticDynamics"
 uuid = "6ce81dba-b6c7-4d45-87bc-beb01d72eeef"
 version = "1.0.0-DEV"
@@ -703,12 +703,12 @@ version = "1.0.0"
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
 uuid = "b27032c2-a3e7-50c8-80cd-2d36dbcbfd21"
-version = "0.6.3"
+version = "0.6.4"
 
 [[deps.LibCURL_jll]]
 deps = ["Artifacts", "LibSSH2_jll", "Libdl", "MbedTLS_jll", "Zlib_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "7.84.0+0"
+version = "8.4.0+0"
 
 [[deps.LibGit2]]
 deps = ["Base64", "NetworkOptions", "Printf", "SHA"]
@@ -717,7 +717,7 @@ uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
 [[deps.LibSSH2_jll]]
 deps = ["Artifacts", "Libdl", "MbedTLS_jll"]
 uuid = "29816b5a-b9ab-546f-933c-edad1886dfa8"
-version = "1.10.2+0"
+version = "1.11.0+1"
 
 [[deps.Libdl]]
 uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -883,6 +883,11 @@ deps = ["OpenLibm_jll"]
 git-tree-sha1 = "0877504529a3e5c3343c6f8b4c0381e57e4387e4"
 uuid = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 version = "1.0.2"
+
+[[deps.NamedTupleTools]]
+git-tree-sha1 = "90914795fc59df44120fe3fff6742bb0d7adb1d0"
+uuid = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+version = "0.14.3"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
@@ -1604,7 +1609,7 @@ version = "1.4.9+0"
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
-version = "1.48.0+0"
+version = "1.52.0+1"
 
 [[deps.p7zip_jll]]
 deps = ["Artifacts", "Libdl"]
