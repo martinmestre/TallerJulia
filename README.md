@@ -14,5 +14,5 @@ Los códigos subidos realizan la instalación automática de los paquetes necesa
 entorno (environment) local (asociado al directorio local). Puede tardar un buen tiempo
 la primera vez que se instalen nuevos paquetes. Asimismo, Julia puede tardar mucho la primera
 vez que compila las funciones, no frustarse ☺.
-Para mayor información sobre el administrador de paquetes de Julia, "pkg", se puede
+Para mayor información sobre el administrador de paquetes de Julia, "Pkg", se puede
 leer [estas notas](https://m3g.github.io/JuliaNotes.jl/stable/workflow/#Environments).
