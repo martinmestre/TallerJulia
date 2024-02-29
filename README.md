@@ -4,7 +4,7 @@ Algunos recursos (notebooks) para iniciar en la práctica.
 
 # Instalación de Julia
 Seguiremos la instalación propuesta en las [Notas de Julia](https://m3g.github.io/JuliaNotes.jl/stable/workflow/) de Leandro Martínez, basada en el programa instalador [juliaup](https://github.com/JuliaLang/juliaup).
-Para instalar la ultima version estable de Julia basta ejecutar el siguiente comando como
+Para instalar la ultima versión estable de Julia basta ejecutar el siguiente comando como
 usuario:
 
 `curl -fsSL https://install.julialang.org | sh`
